@@ -1,0 +1,2 @@
+#!/bin/bashi
+echo (a..z)(a..z) | try ' ' '\a' | grep -v "00"
